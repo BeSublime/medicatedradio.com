@@ -18,15 +18,31 @@
 
 	<link rel="stylesheet" href="css/main.css">
 
-	<meta name="theme-color" content="#fafafa">
+	<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="#171717" media="(prefers-color-scheme: dark)">
 </head>
 
 <body>
 
-	<main class="dark:bg-neutral-900 dark:text-gray-200 flex flex-col items-center justify-center h-screen">
+	<main class="bg-neutral-50 dark:bg-neutral-900 dark:text-gray-200 flex flex-col items-center justify-center h-screen gap-20">
 		<h1 class="text-3xl">
-			Coming soon.
+			<img src="img/MR 2 line color gradient darker@3x.png" class="text-center w-4/5 lg:w-1/2 mx-auto" alt="Logo containing the words Medicated Radio composed of block letters made with multiple parallel lines">
+			<span class="sr-only">
+				Medicated Radio
+			</span>
 		</h1>
+
+		<div class="pages flex flex-col justify-center text-center text-3xl font-thin tracking-wider gap-4">
+			<a class=" hover:text-purple-600 animate-fadeIn [animation-delay:300ms] opacity-0" href="#">Artists</a>
+			<a class=" hover:text-purple-600 animate-fadeIn [animation-delay:700ms] opacity-0" href="#">Events</a>
+			<a class=" hover:text-purple-600 animate-fadeIn [animation-delay:1100ms] opacity-0" href="#">Guest DJs</a>
+		</div>
+
+		<div class="social flex flex-row items-center animate-fadeIn [animation-delay:1500ms] opacity-0 lowercase font-thin tracking-wider gap-4">
+			<a href="https://www.instagram.com/medicatedradio/">Instagram</a>
+			•
+			<a href="https://www.mixcloud.com/medicatedradio/">Mixcloud</a>
+		</div>
 	</main>
 
 	<script src="js/plugins.js"></script>
